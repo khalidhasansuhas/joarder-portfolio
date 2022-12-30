@@ -15,7 +15,7 @@ const Navbar = () => {
        
     </React.Fragment>
     return (
-        <div className=" bg-[#0a192f]  text-gray-300 flex justify-between px-6">
+        <div className=" bg-[#0a192f] fixed w-full  text-gray-300 flex justify-between px-6">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

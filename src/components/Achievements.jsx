@@ -6,7 +6,7 @@ const Achievements = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center text-3xl font-bold  pt-20  text-[#0a192f] underline'>Grants, Fellowships and Awards</h1>
+                <h1 className='text-center text-5xl font-bold  pt-20  text-[#0a192f] '>Grants, Fellowships and Awards</h1>
                 <section className="dark:bg-gray-800 dark:text-gray-100">
                     <div className="container mx-auto flex flex-col p-6">
 

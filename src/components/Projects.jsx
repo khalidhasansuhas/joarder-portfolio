@@ -4,7 +4,7 @@ import { FaGenderless } from 'react-icons/fa';
 const projects = () => {
     return (
         <div className='h-screen '>
-            <h1 className='text-center text-3xl font-bold  pt-20  text-[#0a192f] underline'>Highlights Projects</h1>
+            <h1 className='text-center text-5xl font-bold  pt-20  text-[#0a192f] '>Highlights Projects</h1>
             <section className="dark:bg-gray-800 dark:text-gray-100 md:pl-72">
                     <div className="container mx-auto flex flex-col p-6">
 

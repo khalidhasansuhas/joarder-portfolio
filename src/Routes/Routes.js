@@ -4,6 +4,7 @@ import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Home from "../components/Home";
 import Projects from "../components/Projects";
+import Teaching from "../components/Teaching";
 import Main from "../Layout/Main";
 
 const router = createBrowserRouter([
@@ -34,7 +35,12 @@ const router = createBrowserRouter([
             {
                 path: '/achievements',
                 element: <Achievements></Achievements>
-            }
+            },
+            {
+                path: '/teaching',
+                element: <Teaching></Teaching>
+            },
+
         ]
     }
 ])

@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../asset/profile.png'
-import { FaCode, FaGithub, FaLinkedin, FaMapMarkedAlt, FaMapMarkerAlt, FaOrcid, FaPaperclip, FaRegEnvelopeOpen, FaRegHandPointRight, FaResearchgate, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaCode, FaGenderless, FaGithub, FaLinkedin, FaMapMarkedAlt, FaMapMarkerAlt, FaOrcid, FaPaperclip, FaRegEnvelopeOpen, FaRegHandPointRight, FaResearchgate, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { SiDblp, SiGooglescholar } from "react-icons/si"
 import { GiArchiveResearch, GiSkills, GiTeacher } from "react-icons/gi"
@@ -44,12 +44,13 @@ const Home = () => {
                     <div className="flex flex-col justify-center p-6 text-center text-[#0a192f] rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                         <h1 className="text-5xl font-bold leading-none sm:text-6xl">Y A Joarder
                         </h1>
-                        <p className="mt-6 mb-8  text-[#0a192f] sm:mb-12">– PhD Fellow in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
-                            – Graduate Research Assistant (GRA), Concordia Institute for Information Systems Engineering (CIISE) <br />
-                            – Cybersecurity, AI, ML & IoT Researcher, Next Generation Network Security (NGNSec) Lab, (CIISE) <br />
-                            – Teaching Assistant (Graduate & Undergraduate Level), Concordia University, Montreal, Quebec, Canada <br />
-                            – Penetration & Vulnerability Tester <br />
-                            – Cybersecurity Architect & Engineer <br />
+                        <p className="mt-6 mb-8  text-[#0a192f] sm:mb-12">
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> PhD Fellow in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> Graduate Research Assistant (GRA), Concordia Institute for Information Systems Engineering (CIISE) <br />
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> Cybersecurity, AI, ML & IoT Researcher, Next Generation Network Security (NGNSec) Lab, (CIISE) <br />
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> Teaching Assistant (Graduate & Undergraduate Level), Concordia University, Montreal, Quebec, Canada <br />
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> Penetration & Vulnerability Tester <br />
+                            <FaGenderless className='inline-block mr-1 text-xl'></FaGenderless> Cybersecurity Architect & Engineer <br />
                         </p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <button className='btn btn-primary'><a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Download CV</a></button>

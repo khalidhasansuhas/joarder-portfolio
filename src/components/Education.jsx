@@ -13,7 +13,7 @@ const Education = () => {
                         <div className="divide-y divide-gray-700">
                             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                                 <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                                    <FaUserGraduate className='w-16 h-16'></FaUserGraduate>
+                                <GiGraduateCap className='w-20 h-20'></GiGraduateCap>
                                 </div>
                                 <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                     <div className='flex justify-between items-center'>
@@ -40,7 +40,8 @@ const Education = () => {
                         <div className="divide-y divide-gray-700">
                             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                                 <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                                    <GiGraduateCap className='w-16 h-16'></GiGraduateCap>
+                                    
+                                    <FaUserGraduate className='w-16 h-16'></FaUserGraduate>
                                 </div>
                                 <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                     <div className='flex justify-between items-center'>
@@ -68,7 +69,8 @@ const Education = () => {
                         <div className="divide-y divide-gray-700">
                             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                                 <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                                    <GiGraduateCap className='w-16 h-16'></GiGraduateCap>
+                                    
+                                    <FaUserGraduate className='w-16 h-16'></FaUserGraduate>
                                 </div>
                                 <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                     <div className='flex justify-between items-center'>

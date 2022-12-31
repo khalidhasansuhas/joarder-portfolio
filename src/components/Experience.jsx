@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaBriefcase } from 'react-icons/fa';
+import { FaBriefcase, FaGenderless } from 'react-icons/fa';
 import { GiTeacher } from 'react-icons/gi';
 
 const Experience = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center text-3xl font-bold  pt-16 pb-10 text-[#0a192f] underline'>Professional Experiences</h1>
+                <h1 className='text-center text-3xl font-bold  pt-20  text-[#0a192f] underline'>Professional Experiences</h1>
                 <section className="dark:bg-gray-800 dark:text-gray-100">
                     <div className="container mx-auto flex flex-col p-6">
 
@@ -51,7 +51,70 @@ const Experience = () => {
                                             <span className="text-sm font-semibold "> Jan. 2021- Present</span>
                                         </div>
                                     </div>
-                                    <span className="mt-4 dark:text-gray-300">I am working as a Graduate Research Assistant at  Next Generation Network Security (NGNSec) Lab, CIISE, Concordia University. My current research areas include Cybersecurity, Artificial Intelligence, Deep Learning, Machine Learning, Data Science and Cloud Computing. </span>
+                                    <span className="text-xl font-semibold pt-3 underline">Teaching Assistantship Details:   </span>
+
+                                    <div className="mt-4 dark:text-gray-300">
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" "> <FaGenderless className='inline-block'></FaGenderless> Concordia Institute for Information Systems Engineering </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>: Cryptographic Protocols and Network Security (INSE 6120)    </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">  Jan. 2022 – Apr. 2022</span>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" "> <FaGenderless className='inline-block'></FaGenderless> Dept. of Computer Science and Software Engineering   </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>: Principles of Programming Languages (COMP 348)     </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">  Jan. 2022 – Jun. 2022</span>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" ">  <FaGenderless className='inline-block'></FaGenderless> Dept. of Electrical and Computer Engineering      </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>: Programming Methodology -1 (COEN 243)     </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">  Jan. 2022 – Apr. 2022</span>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" ">  <FaGenderless className='inline-block'></FaGenderless> Dept. of Computer Science and Software Engineering      </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>: Data Communications & Computer Networks (COMP 445)   </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">   Jan. 2022 – Apr. 2022</span>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" ">  <FaGenderless className='inline-block'></FaGenderless> Concordia Institute for Information Systems Engineering        </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>:  Cryptographic Protocols and Network Security (INSE 6120)   </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">   Sep. 2022 – Current</span>
+                                            </div>
+                                        </div>
+                                        <div className='flex justify-between items-center mb-3'>
+                                            <div className='flex flex-col'>
+                                                <span className=" ">  <FaGenderless className='inline-block'></FaGenderless> Centre for Engineering in Society        </span>
+                                                <span className=" "><span className='font-semibold underline'>Course Title</span>: Professional Practice and Responsibility (ENGR 201)   </span>
+                                            </div>
+                                            <div className='flex flex-col text-right w-1/3 '>
+                                                
+                                                <span className="text-sm font-semibold ">   Sep. 2021 – Current</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -81,7 +144,7 @@ const Experience = () => {
                         <div className="divide-y divide-gray-700">
                             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                                 <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                                <GiTeacher className='w-16 h-16'></GiTeacher>
+                                    <GiTeacher className='w-16 h-16'></GiTeacher>
                                 </div>
                                 <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                     <div className='flex justify-between items-center'>
@@ -131,7 +194,7 @@ const Experience = () => {
                         <div className="divide-y divide-gray-700">
                             <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                                 <div className="flex items-center justify-center lg:col-span-1 col-span-full">
-                                <FaBriefcase className='w-16 h-16'></FaBriefcase>
+                                    <FaBriefcase className='w-16 h-16'></FaBriefcase>
                                 </div>
                                 <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                     <div className='flex justify-between items-center'>
@@ -141,7 +204,7 @@ const Experience = () => {
                                         </div>
                                         <div className='flex flex-col text-right w-1/3 '>
                                             <span className="text-xs "> Dhaka, Bangladesh</span>
-                                            <span className="text-sm font-semibold ">  uly 2018- Sept. 2020</span>
+                                            <span className="text-sm font-semibold ">  July 2018- Sept. 2020</span>
                                         </div>
                                     </div>
                                     <span className="mt-4 dark:text-gray-300">Developed, enhanced and implemented feature, integration, regression and systems’

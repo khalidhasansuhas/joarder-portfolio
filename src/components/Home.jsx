@@ -1,6 +1,11 @@
 import React from 'react';
 import profile from '../asset/profile.png'
-import { FaLinkedin, FaMapMarkedAlt, FaMapMarkerAlt, FaRegEnvelopeOpen } from "react-icons/fa";
+import { FaCode, FaGithub, FaLinkedin, FaMapMarkedAlt, FaMapMarkerAlt, FaOrcid, FaRegEnvelopeOpen, FaRegHandPointRight, FaResearchgate, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import { SiDblp, SiGooglescholar } from "react-icons/si"
+import { GiArchiveResearch, GiSkills, GiTeacher } from "react-icons/gi"
+import { BsCircleHalf, BsNewspaper } from "react-icons/bs"
+import { ImBlog } from "react-icons/im"
 
 const Home = () => {
     return (
@@ -15,7 +20,7 @@ const Home = () => {
                         <div className='flex flex-col '>
                             <div className='ml-8 pb-3'>
                                 <div className='flex '>
-                                    <FaMapMarkerAlt className='text-2xl'></FaMapMarkerAlt>
+                                    <FaMapMarkerAlt className='text-2xl text-red-800'></FaMapMarkerAlt>
                                     <h2 className='text-lg font-semibold px-2'>Office address </h2>
                                 </div>
                                 <div>
@@ -25,7 +30,7 @@ const Home = () => {
                             </div>
                             <div className='ml-8'>
                                 <div className='flex'>
-                                    <FaRegEnvelopeOpen className='text-2xl'></FaRegEnvelopeOpen>
+                                    <FaRegEnvelopeOpen className='text-2xl text-blue-700'></FaRegEnvelopeOpen>
                                     <h2 className='text-lg font-semibold px-2'>Emails </h2>
                                 </div>
                                 <div>
@@ -45,7 +50,6 @@ const Home = () => {
                             – Teaching Assistant (Graduate & Undergraduate Level), Concordia University, Montreal, Quebec, Canada <br />
                             – Penetration & Vulnerability Tester <br />
                             – Cybersecurity Architect & Engineer <br />
-                            <br className="hidden md:inline lg:hidden" />turpis pulvinar, est scelerisque ligula sem
                         </p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <button className='btn btn-primary'><a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Download CV</a></button>
@@ -54,12 +58,140 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            {/* Social Connections */}
+            <section className='md:hidden'>
+                <div>
+                    <h1 className='text-center text-3xl font-bold pb-10 underline'>Connections</h1>
+                </div>
+                <div className='w-full mx-auto'>
+                    <div className='flex justify-center flex-wrap'>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaLinkedin className='text-2xl text-blue-800'></FaLinkedin>
+                                <h5 className='pl-2'>LinkedIn</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaOrcid className='text-2xl text-lime-600'></FaOrcid>
+                                <h5 className='pl-2'>ORCiD</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaResearchgate className='text-2xl text-emerald-500'></FaResearchgate>
+                                <h5 className='pl-2'>Research Gate</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaGithub className='text-2xl'></FaGithub>
+                                <h5 className='pl-2'>Github</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <SiGooglescholar className='text-2xl text-sky-700'></SiGooglescholar>
+                                <h5 className='pl-2'>Google Scholar</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaTwitter className='text-2xl text-cyan-600'></FaTwitter>
+                                <h5 className='pl-2'>Twitter</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <FaYoutube className='text-2xl text-red-700'></FaYoutube>
+                                <h5 className='pl-2'>Youtube</h5>
+                            </div>
+                        </Link>
+                        <Link>
+                            <div className='flex m-3'>
+                                <SiDblp className='text-2xl'></SiDblp>
+                                <h5 className='pl-2'>DBLP</h5>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+            {/* About section */}
+            <section className='w-full flex flex-col justify-center'>
+                <h1 className="text-5xl font-bold text-center leading-none text-[#0a192f] sm:text-6xl">About
+                </h1>
+                <div className='w-full flex justify-center'>
+                   <div className='sm:w-4/6'>
+                   <p className="mt-6 mb-8  text-[#0a192f]  px-6 sm:mb-12">
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  PhD Candidate in Information and Systems Engineering at Concordia University, Montreal, Canada; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  Graduated with M.Sc. and B.Sc. in Information and Communication Engineering; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  4.5 years of experience as Graduate Research Assistant in Bangladesh and Canada; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  3 years of teaching experience as a Lecturer of CSE in Bangladesh and Teaching Assistant (TA) in Canada; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  Researcher in Cyber Security, Network Security, IoT, IIoT, IoV, IoE, AI and Data Science; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  Professional research competence in QUIC, Machine Learning, Deep Learning and Cloud Computing; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  1.4 years of experience as Software Testing Engineer in Bangladesh; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  5 months of experience as IT Analyst in Canada; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  Excellent analytical capacity, methodical approach, determination with can-do mindset; <br />
+                        <FaRegHandPointRight className='inline-block text-2xl text-[#0a192f] mx-3'></FaRegHandPointRight>  Proven leadership quality, organizing efficiency, autonomy with perfection even under pressure. <br />
+
+                    </p>
+                   </div>
+                </div>
+            </section>
+
             <section>
                 <div>
-                    <h1 className='text-center'>Contacts</h1>
+                    <h1 className='text-center text-3xl font-bold py-10 underline'>Activities & Outputs</h1>
                 </div>
-                <div>
-                    <FaLinkedin></FaLinkedin> 
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-16 mx-auto'>
+                    <div className='sm:text-right '>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                                <h2 className=" sm:text-right text-center text-xl font-semibold underline">Activities</h2>
+                                <div className='flex sm:justify-end justify-center py-2'>
+                                    <h5 className='pr-2'>Research</h5>
+                                    <GiArchiveResearch className='text-2xl text-blue-800'></GiArchiveResearch>
+                                </div>
+                                <div className='flex sm:justify-end justify-center py-2'>
+                                    <h5 className='pr-2'>Skills</h5>
+                                    <GiSkills className='text-2xl text-blue-800'></GiSkills>
+                                </div>
+                                <div className='flex sm:justify-end justify-center py-2'>
+                                    <h5 className='pr-2'>Teaching</h5>
+                                    <GiTeacher className='text-2xl text-blue-800'></GiTeacher>
+                                </div>
+                                <div className='flex sm:justify-end justify-center py-2'>
+                                    <h5 className='pr-2'>Advising</h5>
+                                    <BsCircleHalf className='text-2xl text-blue-800'></BsCircleHalf>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="card w-96 bg-base-100 shadow-xl">
+                            <div className="card-body">
+                                <h2 className="sm:text-start text-center text-xl font-semibold underline">Outputs</h2>
+                                <div className='flex sm:justify-start justify-center py-2'>
+                                    <BsNewspaper className='text-2xl text-green-700 mr-2'></BsNewspaper>
+                                    <h5 className='pr-2'>Publications</h5>
+                                </div>
+                                <div className='flex sm:justify-start justify-center py-2'>
+                                    <FaCode className='text-2xl text-green-700 mr-2'></FaCode>
+                                    <h5 className='pr-2'>Code</h5>
+                                </div>
+                                <div className='flex sm:justify-start justify-center py-2'>
+                                    <ImBlog className='text-2xl text-green-700 mr-2'></ImBlog>
+                                    <h5 className='pr-2'>Blog</h5>
+                                </div>
+                                <div className='flex sm:justify-start justify-center py-2'>
+                                    <GiTeacher className='text-2xl text-green-700 mr-2'></GiTeacher>
+                                    <h5 className='pr-2'>Talks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

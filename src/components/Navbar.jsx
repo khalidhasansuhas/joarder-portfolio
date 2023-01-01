@@ -1,6 +1,5 @@
 import React from 'react';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaFacebook, FaGithub, FaLinkedin, FaOrcid, FaResearchgate, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {  FaGithub, FaLinkedin, FaOrcid, FaResearchgate, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { SiDblp, SiGooglescholar } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 
@@ -40,7 +39,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800'>
                         <a
                             className='flex justify-between items-center font-semibold p-4 w-full text-gray-300'
-                            href='https://www.linkedin.com/in/khalid-hasan-suhas/'
+                            href='https://www.linkedin.com/in/yajoarder/'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -50,7 +49,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-600'>
                         <a
                             className='flex justify-between items-center font-semibold p-4 w-full text-gray-300'
-                            href='https://www.linkedin.com/in/khalid-hasan-suhas/'
+                            href='https://orcid.org/0000-0001-9603-4763?fbclid=IwAR1Ikc3PAW90tTMVZAy_sO2F9y8YZbk62j5GuJFDQX8PZDfO1LgmiYCAOcg'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -60,7 +59,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-500'>
                         <a
                             className='flex justify-between items-center font-semibold p-4 w-full text-gray-300'
-                            href='https://www.linkedin.com/in/khalid-hasan-suhas/'
+                            href='https://www.researchgate.net/profile/Y-A-Joarder-2?fbclid=IwAR2XyFvltJhQFFURbl5YVSkM49wYNIEl-9Cx-4u2WD-MrQJ1beb9-Md6lLw'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -70,7 +69,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://github.com/khalidhasansuhas'
+                            href='https://github.com/yajoarder?fbclid=IwAR2lW1_-YYwG1hvJww1DVP0lnEjENEo7e1ojXXRijMWajN-avUHgMPFMZ8M'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -80,7 +79,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://www.facebook.com/suuhaas'
+                            href='https://scholar.google.ca/citations?hl=en&user=La6inr0AAAAJ&view_op=list_works&sortby=pubdate&fbclid=IwAR1BYcmyKtLKZBwhxZdFc3guRKS_QMfaqHOsb6IX-VmNKsetTZVH7O378ns'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -90,7 +89,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-600'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://drive.google.com/file/d/1I8nz1AKATaacBX5D1EKeacBt8cInSapy/view?fbclid=IwAR1bbQN0B4pZkGI7diPRShT-_nGva3N0dxB8ndHvz2ZDral_89uxKcOGdWI'
+                            href='https://twitter.com/yajoarder?fbclid=IwAR0_ycBgSyTiExAVCLMlJjZffLTYu0IqQUdn3v1lkJsRWZrA_qrTlbB6FRM'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -100,7 +99,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-700'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://drive.google.com/file/d/1I8nz1AKATaacBX5D1EKeacBt8cInSapy/view?fbclid=IwAR1bbQN0B4pZkGI7diPRShT-_nGva3N0dxB8ndHvz2ZDral_89uxKcOGdWI'
+                            href='https://www.youtube.com/channel/UCpDf21e7A6j4UhIIdMosqtA'
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -110,7 +109,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-amber-500'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://drive.google.com/file/d/1I8nz1AKATaacBX5D1EKeacBt8cInSapy/view?fbclid=IwAR1bbQN0B4pZkGI7diPRShT-_nGva3N0dxB8ndHvz2ZDral_89uxKcOGdWI'
+                            href='https://dblp.org/pid/202/2781.html'
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBook, FaGenderless, FaMedal, FaUserCog } from 'react-icons/fa';
+import { FaBook, FaMedal, FaUserCog } from 'react-icons/fa';
 import { GiNewspaper, GiTeacher } from 'react-icons/gi';
 
 const Achievements = () => {

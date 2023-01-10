@@ -1,9 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
+import About from "../components/About";
 import Achievements from "../components/Achievements";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Home from "../components/Home";
+import HomePage from "../components/HomePage";
 import Projects from "../components/Projects";
 import Research from "../components/Research";
 import Teaching from "../components/Teaching";
@@ -20,7 +22,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/home',
-                element:<Home></Home>
+                element:<HomePage></HomePage>
+            },
+            {
+                path: '/about',
+                element:<About></About>
             },
             {
                 path: '/experience',

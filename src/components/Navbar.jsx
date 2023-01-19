@@ -11,8 +11,8 @@ const Navbar = () => {
             <NavLink to='/home'
                 className={({ isActive }) =>
                     isActive
-                        ? " text-orange-600 font-bold "
-                        : "font-bold"
+                        ? " text-orange-600 font-bold  "
+                        : "font-bold "
                 }>Home
             </NavLink>
         </li>
@@ -170,7 +170,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-fuchsia-700'>
                         <a
                             className='flex justify-between items-center p-4 font-semibold w-full text-gray-300'
-                            href='https://dblp.org/pid/202/2781.html'
+                            href='https://www.instagram.com/yajoarderhimel/'
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -124,18 +124,18 @@ class CustomizedContent extends PureComponent {
           height={height}
           style={{
             fill: depth < 2 ? colors[Math.floor((index / root.children.length) * 6)] : "#ffffff00",
-            stroke: '#fff',
+            stroke: '#240202',
             strokeWidth: 2 / (depth + 1e-10),
             strokeOpacity: 1 / (depth + 1e-10),
           }}
         />
         {depth === 1 ? (
-          <text x={x + width / 2} y={y + height / 2 + 7} textAnchor="middle" fill="#fff" fontSize={14}>
+          <text x={x + width / 2} y={y + height / 2 + 7} textAnchor="middle" fill="#6e1720" fontSize={14}>
             {name}
           </text>
         ) : null}
         {depth === 1 ? (
-          <text x={x + 4} y={y + 18} fill="#fff" fontSize={16} fillOpacity={0.9}>
+          <text x={x + 4} y={y + 18} fill="#6e1720" fontSize={16} fillOpacity={0.9}>
             {index + 1}
           </text>
         ) : null}
@@ -156,7 +156,7 @@ export default class Example extends PureComponent {
           data={data}
           dataKey="size"
           ratio={4 / 3}
-          stroke="#fff"
+          stroke="#EA580C"
           fill="#84d8ca"
           content={<CustomizedContent colors={COLORS} />}
         />

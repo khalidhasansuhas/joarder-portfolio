@@ -1,54 +1,123 @@
 import React, { useEffect } from 'react';
-import { FaGenderless } from 'react-icons/fa';
 import banner from '../asset/banner.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import update1 from '../asset/update1.jpg'
+import update2 from '../asset/update2.jpeg'
+import update3 from '../asset/update3.JPG'
+import update4 from '../asset/update4.jpg'
+import update5 from '../asset/update5.jpg'
+import update6 from '../asset/update6.jfif'
+
 
 const Projects = () => {
     useEffect(()=>{
-        Aos.init({duration: 2000});
+        Aos.init({duration: 500});
     },[])
     return (
-        <div className='h-screen '>
+        <div className='h-full'>
             <div data-aos="fade-down" data-aos-duration="1000" className="hero pt-20 h-48 border-b-8 border-orange-600" style={{ backgroundImage: `url(${banner})` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-neutral-content">
                     <div className="max-w-md">
-                        <h1 data-aos="fade-left" className="text-3xl font-bold"><span className='text-orange-600'>Y A Joarder ||</span> Projects</h1>
+                        <h1 data-aos="fade-left" className="text-3xl font-bold"><span className='text-orange-600'>Y A Joarder ||</span> Updates</h1>
                     </div>
                 </div>
             </div>
-            <h1 className='text-center text-5xl font-bold  pt-20  text-[#0a192f] '>Highlights Projects</h1>
-            <section className="dark:bg-gray-800 dark:text-gray-100 md:pl-72">
-                <div className="container mx-auto flex flex-col p-6">
+            <section className="dark:bg-gray-800 dark:text-gray-100">
+                    <div className="container mx-auto flex flex-col p-6">
 
-                    <div className="divide-y divide-gray-700">
-                        <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
-
-                            <div className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
-                                <div className='flex justify-between items-center'>
-                                    <div className='flex flex-col'>
-                                        <span className="text-xl font-bold md:text-2xl"> Academic & .....Projects </span>
-
-                                    </div>
-
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex  justify-center lg:col-span-1 col-span-full">
+                                    <img className='h-40 w-64 shadow-2xl' src={update1} alt="" />
                                 </div>
-                                <span className="mt-4 dark:text-gray-300">
-                                    <FaGenderless className='inline-block' /> Model Inversion Attack in MLaaS System and Its Countermeasures <br />
-                                    <FaGenderless className='inline-block' /> Concept Development of Autonomous Vehicles: Self-Driving Smart Car<br />
-                                    <FaGenderless className='inline-block' />  Improvement of ANN-based Offline Handwritten Character Recognition Using Gradient <br />
-                                    <FaGenderless className='inline-block' /> University Library Automation System <br />
+                                <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                    
+                                    <span className="mt-4 dark:text-gray-300">
+                                    Our latest publication on “<span className='font-bold'>QUIC Security</span> ” is in IEEE Xplore. Important to mention: it is one of the first surveys that focuses on the security of the QUIC protocol. <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication Link)</a>
 
 
-                                </span>
+                                    </span>
+                                </div>
                             </div>
+
+                        </div>
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex  justify-center lg:col-span-1 col-span-full">
+                                <img className='h-40 w-64 shadow-2xl' src={update2} alt="" />
+                                </div>
+                                <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                 
+                                    <span className="mt-4 dark:text-gray-300">
+                                    We are featured in Concordia 3 min <br /> ( <a className='text-blue-600' href="https://www.concordia.ca/cunews/main/stories/2022/12/12/concordia-hosts-a-hands-on-cybersecurity-contest-for-students.html">Read More</a> )
+
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex  justify-center lg:col-span-1 col-span-full">
+                                <img className='h-40 w-64 shadow-2xl' src={update3} alt="" />
+                                </div>
+                                <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                  
+                                    <span className="mt-4 dark:text-gray-300">
+                                    Our recent research work which is based on QUIC Protocol Security titled “<span className='font-semibold'>A Survey on the Security Issues of QUIC</span>” has been accepted to be presented in 6th edition of CSNet Conference, 2022 (CSNet’22) in Rio de Janeiro, Brazil! <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication link)</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex justify-center lg:col-span-1 col-span-full">
+                                <img className='h-40 w-64 shadow-2xl' src={update4} alt="" />
+                                </div>
+                                <div data-aos="fade-up" className="flex flex-col justify-start max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                    
+                                    <span className="mt-4 dark:text-gray-300">
+                                    My research talk on <span className='font-semibold'>QUIC Protocol and Its Past, Current and Future</span> <br /> ( <a className='text-blue-600' href="https://www.concordia.ca/cunews/main/stories/2022/12/12/concordia-hosts-a-hands-on-cybersecurity-contest-for-students.html">Link</a> )
+                                   </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex  justify-center lg:col-span-1 col-span-full">
+                                <img className='h-40 w-64 shadow-2xl' src={update5} alt="" />
+                                </div>
+                                <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                    
+                                    <span className="mt-4 dark:text-gray-300">
+                                    I am going to give a virtual (Zoom Cloud Meeting Platform) research talk on <span className='font-semibold'> “QUIC Protocol and Its Past, Current and Future” </span>The event is organized by ICT Research Lab, Bangladesh. Only limited participants will chance to join the virtual research talk. Selected participants will get a confirmation email with zoom ID and Passcode.
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="divide-y divide-gray-700">
+                            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+                                <div data-aos="fade-right" className="flex  justify-center lg:col-span-1 col-span-full">
+                                <img className='h-40 w-64 shadow-2xl' src={update6} alt="" />
+                                </div>
+                                <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
+                                    
+                                    <span className="mt-4 dark:text-gray-300">
+                                    Our latest publication titled: <span className='font-semibold'>“Active Federated YOLOR Model for Enhancing  Autonomous Vehicles Safety”</span> is in Springer. It is published in Mobile Web and Intelligent Information Systems. MobiWIS 2022. ( <a className='text-blue-600' href="https://link.springer.com/chapter/10.1007/978-3-031-14391-5_4">Publication Link</a> )
+                                    </span>
+                                </div>
+                            </div>
+
                         </div>
 
+
                     </div>
-
-
-                </div>
-            </section>
+                </section>
            
         </div>
     );

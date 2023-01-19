@@ -4,7 +4,6 @@ import Achievements from "../components/Achievements";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
-import Home from "../components/Home";
 import HomePage from "../components/HomePage";
 import Projects from "../components/Projects";
 import Research from "../components/Research";
@@ -18,7 +17,7 @@ const router = createBrowserRouter([
         children:[
             {
                 path: '/',
-                element:<Home></Home>
+                element:<HomePage></HomePage>
             },
             {
                 path: '/home',

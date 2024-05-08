@@ -44,7 +44,7 @@ const HomePage = () => {
                         <h1 className="text-5xl font-bold text-center leading-none pb-6 md:pt-12  sm:text-6xl">Y A Joarder
                         </h1>
                         <p>
-                            – PhD Fellow in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
+                            – PhD candidate in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
                             – Graduate Research Assistant (GRA), Concordia Institute for Information Systems Engineering (CIISE) <br />
                             – Cybersecurity, AI, ML & IoT Researcher, Next Generation Network Security (NGNSec) Lab, (CIISE) <br />
                             – Teaching Assistant (Graduate & Undergraduate Level), Concordia University, Montreal, Quebec, Canada <br />
@@ -173,28 +173,28 @@ const HomePage = () => {
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> AI
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> ML
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> Deep Learning
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> Data Science
-                                                        </span>
+                                                    </span>
                                                 </li>
                                             </div>
                                             <div className='w-full flex justify-center mb-2'>
-                                           
-                                            <button className='btn  bg-blue-700 hover:bg-orange-600 border-none btn-sm w-1/2'> <Link to="/research">See More</Link></button>
-                                           
+
+                                                <button className='btn  bg-blue-700 hover:bg-orange-600 border-none btn-sm w-1/2'> <Link to="/research">See More</Link></button>
+
                                             </div>
                                         </div>
                                     </div>

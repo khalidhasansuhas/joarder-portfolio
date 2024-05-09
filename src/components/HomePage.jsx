@@ -12,9 +12,9 @@ import quic_security from '../asset/quic_security.png'
 import quic_security_output from '../asset/quic_security_output.jfif'
 import active from '../asset/active.jpg'
 import active_output from '../asset/active_output.jpg'
-import update1 from '../asset/update1.jpg'
-import update2 from '../asset/update2.jpeg'
-import update3 from '../asset/update3.JPG'
+import update1 from '../asset/quicPRO.jpeg'
+import update2 from '../asset/quicWAND.jpeg'
+import update3 from '../asset/quicSHEILD.jpeg'
 import blog_logo from '../asset/research/blog_logo.png'
 
 import labLogo from '../asset/labLogo.png'
@@ -284,7 +284,10 @@ const HomePage = () => {
                                 <div className="flex flex-col justify-between p-6 bg-green-200 space-y-8">
                                     <div className="space-y-2 ">
                                         <h2 className="text-md text-justify font-semibold tracking-wide">
-                                            Our latest publication on “QUIC Security” is in IEEE Xplore. Important to mention: it is one of the first surveys that focuses on the security of the QUIC protocol. <br />( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> )
+                                            Our latest publication on "QUICPro: Integrating Deep Reinforcement Learning to Defend against
+                                            QUIC Handshake Flooding Attacks" <br />
+
+                                            {/* ( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> ) */}
                                         </h2>
 
                                     </div>
@@ -296,7 +299,10 @@ const HomePage = () => {
                                 <div className="flex flex-col justify-between p-6 bg-green-200 bottom-0 space-y-8">
                                     <div className="space-y-2 ">
                                         <h2 className="text-md text-justify font-semibold tracking-wide">
-                                            We are featured in Concordia 3 min <br /> ( <a className='text-blue-600' href="https://www.concordia.ca/cunews/main/stories/2022/12/12/concordia-hosts-a-hands-on-cybersecurity-contest-for-students.html">Read More</a> )
+                                            Our recent publication on "QUICwand: A Machine Learning Optimization-based
+                                            Hybrid Defense Approach Against QUIC Flooding Attacks" <br />
+
+                                            {/* ( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> ) */}
                                         </h2>
 
                                     </div>
@@ -304,13 +310,15 @@ const HomePage = () => {
                             </div>
                             <div data-aos="fade-up" className="max-w-xs rounded-md shadow-md dark:bg-gray-900 bg-green-200 dark:text-gray-100">
                                 <img src={update3} alt="" className="object-cover object-center w-full rounded-t-md h-48 dark:bg-gray-500" />
-                                <div className="flex flex-col justify-between p-6 bg-green-200 space-y-8">
-                                    <div className="space-y-2 bg-green-200">
-                                        <h2 className="text-md text-justify font-semibold tracking-wide">Our recent research work which is based on QUIC Protocol Security titled “A Survey on the Security Issues of QUIC” has been accepted to be presented in 6th edition of CSNet Conference, 2022 (CSNet’22) in Rio de Janeiro, Brazil! <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication link)</a></h2>
+                                <div className="flex flex-col justify-between p-6 bg-green-200 bottom-0 space-y-8">
+                                    <div className="space-y-2 ">
+                                        <h2 className="text-md text-justify font-semibold tracking-wide">
+                                            Our recent publication on "QUICShield: A Rapid Detection Mechanism Against
+                                            QUIC-Flooding Attacks" <br />( <a className='text-blue-600' href="https://ieeexplore.ieee.org/abstract/document/10474735">Publication Link</a> )
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
-
                         </section>
                         <button className='btn btn-sm bg-blue-700 hover:bg-orange-600 border-none w-1/4 mx-auto text-center mb-20'><Link to='/projects'>See All Updates <HiArrowNarrowRight className='inline-block'></HiArrowNarrowRight>
                         </Link></button>

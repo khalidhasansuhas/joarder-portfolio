@@ -73,7 +73,7 @@ const Projects = () => {
                             </div>
                             <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                 <span className="mt-4 dark:text-gray-300">
-                                    Our latest publication on “An Empirical Approach to Evaluate the Resilience of
+                                    Our recent publication on “An Empirical Approach to Evaluate the Resilience of
                                     QUIC Protocol against Handshake Flood Attacks" <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/abstract/document/10327907">(Publication Link)</a>
                                 </span>
                             </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                             </div>
                             <div data-aos="fade-up" className="flex flex-col justify-start  max-w-3xl  col-span-full lg:col-span-3 text-left">
                                 <span className="mt-4 dark:text-gray-300">
-                                    Our latest publication on “<span className='font-bold'>QUIC Security</span> ” is in IEEE Xplore. Important to mention: it is one of the first surveys that focuses on the security of the QUIC protocol. <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication Link)</a>
+                                    Our recent publication on “<span className='font-bold'>QUIC Security</span> ” is in IEEE Xplore. Important to mention: it is one of the first surveys that focuses on the security of the QUIC protocol. <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication Link)</a>
                                 </span>
                             </div>
                         </div>

@@ -59,7 +59,7 @@ const HomePage = () => {
                     <div className="w-full lg:w-1/4">
                         <div data-aos="fade-right" className='flex sm:flex-col flex-col sm:pl-10 '>
                             <div className='ml-7 pl-7  pb-5 flex justify-center'>
-                                <button className='btn border-none btn-md bg-blue-900 hover:bg-amber-600'><a href="Y-A-Joarder-Resume-1.pdf" download="Y-A-Joarder-Resume-1.pdf" className=" font-semibold rounded "><BiBookmark className='inline-block mr-1 text-xl'></BiBookmark>Download CV</a></button>
+                                <button className='btn border-none btn-md bg-blue-900 hover:bg-amber-600'><a href="Y A Joarder (Resume).pdf" download="Y A Joarder (Resume).pdf" className=" font-semibold rounded "><BiBookmark className='inline-block mr-1 text-xl'></BiBookmark>Download CV</a></button>
                             </div>
                             <div className='ml-7 pb-3 '>
                                 <div className='flex '>

@@ -12,9 +12,9 @@ import quic_security from '../asset/quic_security.png'
 import quic_security_output from '../asset/quic_security_output.jfif'
 import active from '../asset/active.jpg'
 import active_output from '../asset/active_output.jpg'
-import update1 from '../asset/update1.jpg'
-import update2 from '../asset/update2.jpeg'
-import update3 from '../asset/update3.JPG'
+import update1 from '../asset/quicPRO.jpeg'
+import update2 from '../asset/quicWAND.jpeg'
+import update3 from '../asset/quicSHEILD.jpeg'
 import blog_logo from '../asset/research/blog_logo.png'
 
 import labLogo from '../asset/labLogo.png'
@@ -44,7 +44,7 @@ const HomePage = () => {
                         <h1 className="text-5xl font-bold text-center leading-none pb-6 md:pt-12  sm:text-6xl">Y A Joarder
                         </h1>
                         <p>
-                            – PhD Fellow in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
+                            – PhD candidate in Information & Systems Engineering , Concordia University, Montreal, Quebec, Canada <br />
                             – Graduate Research Assistant (GRA), Concordia Institute for Information Systems Engineering (CIISE) <br />
                             – Cybersecurity, AI, ML & IoT Researcher, Next Generation Network Security (NGNSec) Lab, (CIISE) <br />
                             – Teaching Assistant (Graduate & Undergraduate Level), Concordia University, Montreal, Quebec, Canada <br />
@@ -59,7 +59,7 @@ const HomePage = () => {
                     <div className="w-full lg:w-1/4">
                         <div data-aos="fade-right" className='flex sm:flex-col flex-col sm:pl-10 '>
                             <div className='ml-7 pl-7  pb-5 flex justify-center'>
-                                <button className='btn border-none btn-md bg-blue-900 hover:bg-amber-600'><a href="Y-A-Joarder-Resume-1.pdf" download="Y-A-Joarder-Resume-1.pdf" className=" font-semibold rounded "><BiBookmark className='inline-block mr-1 text-xl'></BiBookmark>Download CV</a></button>
+                                <button className='btn border-none btn-md bg-blue-900 hover:bg-amber-600'><a href="Y A Joarder (Resume).pdf" download="Y A Joarder (Resume).pdf" className=" font-semibold rounded "><BiBookmark className='inline-block mr-1 text-xl'></BiBookmark>Download CV</a></button>
                             </div>
                             <div className='ml-7 pb-3 '>
                                 <div className='flex '>
@@ -173,28 +173,28 @@ const HomePage = () => {
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> AI
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> ML
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> Deep Learning
-                                                        </span>
+                                                    </span>
                                                 </li>
                                                 <li className="flex items-center mx-auto md:mx-0 space-x-2">
                                                     <FaGenderless ClassName="inline-block "></FaGenderless>
                                                     <span className='text-sm'> Data Science
-                                                        </span>
+                                                    </span>
                                                 </li>
                                             </div>
                                             <div className='w-full flex justify-center mb-2'>
-                                           
-                                            <button className='btn  bg-blue-700 hover:bg-orange-600 border-none btn-sm w-1/2'> <Link to="/research">See More</Link></button>
-                                           
+
+                                                <button className='btn  bg-blue-700 hover:bg-orange-600 border-none btn-sm w-1/2'> <Link to="/research">See More</Link></button>
+
                                             </div>
                                         </div>
                                     </div>
@@ -284,7 +284,10 @@ const HomePage = () => {
                                 <div className="flex flex-col justify-between p-6 bg-green-200 space-y-8">
                                     <div className="space-y-2 ">
                                         <h2 className="text-md text-justify font-semibold tracking-wide">
-                                            Our latest publication on “QUIC Security” is in IEEE Xplore. Important to mention: it is one of the first surveys that focuses on the security of the QUIC protocol. <br />( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> )
+                                            Our latest publication on "QUICPro: Integrating Deep Reinforcement Learning to Defend against
+                                            QUIC Handshake Flooding Attacks" <br />
+
+                                            {/* ( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> ) */}
                                         </h2>
 
                                     </div>
@@ -296,7 +299,10 @@ const HomePage = () => {
                                 <div className="flex flex-col justify-between p-6 bg-green-200 bottom-0 space-y-8">
                                     <div className="space-y-2 ">
                                         <h2 className="text-md text-justify font-semibold tracking-wide">
-                                            We are featured in Concordia 3 min <br /> ( <a className='text-blue-600' href="https://www.concordia.ca/cunews/main/stories/2022/12/12/concordia-hosts-a-hands-on-cybersecurity-contest-for-students.html">Read More</a> )
+                                            Our recent publication on "QUICwand: A Machine Learning Optimization-based
+                                            Hybrid Defense Approach Against QUIC Flooding Attacks" <br />
+
+                                            {/* ( <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">Publication Link</a> ) */}
                                         </h2>
 
                                     </div>
@@ -304,13 +310,15 @@ const HomePage = () => {
                             </div>
                             <div data-aos="fade-up" className="max-w-xs rounded-md shadow-md dark:bg-gray-900 bg-green-200 dark:text-gray-100">
                                 <img src={update3} alt="" className="object-cover object-center w-full rounded-t-md h-48 dark:bg-gray-500" />
-                                <div className="flex flex-col justify-between p-6 bg-green-200 space-y-8">
-                                    <div className="space-y-2 bg-green-200">
-                                        <h2 className="text-md text-justify font-semibold tracking-wide">Our recent research work which is based on QUIC Protocol Security titled “A Survey on the Security Issues of QUIC” has been accepted to be presented in 6th edition of CSNet Conference, 2022 (CSNet’22) in Rio de Janeiro, Brazil! <br /> <a className='text-blue-600' href="https://ieeexplore.ieee.org/document/9955622">(Publication link)</a></h2>
+                                <div className="flex flex-col justify-between p-6 bg-green-200 bottom-0 space-y-8">
+                                    <div className="space-y-2 ">
+                                        <h2 className="text-md text-justify font-semibold tracking-wide">
+                                            Our recent publication on "QUICShield: A Rapid Detection Mechanism Against
+                                            QUIC-Flooding Attacks" <br />( <a className='text-blue-600' href="https://ieeexplore.ieee.org/abstract/document/10474735">Publication Link</a> )
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
-
                         </section>
                         <button className='btn btn-sm bg-blue-700 hover:bg-orange-600 border-none w-1/4 mx-auto text-center mb-20'><Link to='/projects'>See All Updates <HiArrowNarrowRight className='inline-block'></HiArrowNarrowRight>
                         </Link></button>

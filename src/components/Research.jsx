@@ -17,7 +17,7 @@ import dl1 from '../asset/research/dl1.jpeg'
 import ai1 from '../asset/research/ai1.jpg'
 import ai2 from '../asset/research/ai2.jpg'
 import quic_security_output from '../asset/quic_security_output.jfif'
-import { AiFillSecurityScan } from 'react-icons/ai';
+import { AiFillSecurityScan, AiOutlineProject } from 'react-icons/ai';
 import { GiArtificialIntelligence, GiBrain } from 'react-icons/gi';
 import { MdDataExploration } from 'react-icons/md';
 import { BiBrain, BiNetworkChart } from 'react-icons/bi';
@@ -592,8 +592,8 @@ const Research = () => {
                             <div className="grid gap-4 mx-4 sm:grid-cols-12">
                                 <div className="col-span-12 sm:col-span-3">
                                     <div data-aos="fade-right" className="flex flex-col justify-center lg:col-span-1 col-span-full">
-                                        <img className='h-48 w-72 shadow-2xl' src={quic_security_output} alt="" />
-                                        <span className="text-xl font-bold py-3 text-center md:text-3xl">  Projects </span>
+                                    <AiOutlineProject className='w-72 sm:w-32 text-center  text-orange-600 h-72 sm:h-32'></AiOutlineProject>
+                                        <span className="text-xl font-bold py-3 pl-3 md:text-3xl">  Projects </span>
                                     </div>
                                 </div>
                                 <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">

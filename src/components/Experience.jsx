@@ -34,14 +34,14 @@ const Experience = () => {
                                     </svg>
                                 </div>
                                 <div data-aos="fade-up" className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
-                                    <div className='flex justify-between items-center'>
+                                    <div className='md:flex justify-between items-center'>
                                         <div className='flex flex-col'>
                                             <span className="text-xl font-bold md:text-2xl">Concordia Institute for Information Systems Engineering (CIISE) </span>
                                             <i><span className="text-xl  ">Graduate Research Assistant (GRA)</span></i>
                                         </div>
-                                        <div className='flex flex-col text-right w-1/3 '>
-                                            <span className=" "> Montreal, QC</span>
-                                            <span className=" font-semibold "> Jan. 2021- Present</span>
+                                        <div className='md:flex flex-col md:text-right md:w-1/3 w-full pt-3'>
+                                            <span className=" font-semibold"> Montreal, QC</span>
+                                            <span className="  "> Jan. 2021- Present</span>
                                         </div>
                                     </div>
                                     <span className="mt-4 dark:text-gray-300">I am working as a Graduate Research Assistant at  Next Generation Network Security (NGNSec) Lab, CIISE, Concordia University. My current research areas include Cybersecurity, Artificial Intelligence, Deep Learning, Machine Learning, Data Science and Cloud Computing. </span>
@@ -55,12 +55,12 @@ const Experience = () => {
                                     <GiTeacher className='w-24 text-orange-600 h-24'></GiTeacher>
                                 </div>
                                 <div data-aos="fade-up" className="flex flex-col justify-center  max-w-3xl  col-span-full lg:col-span-3 text-left">
-                                    <div className='flex justify-between items-center'>
+                                    <div className='md:flex justify-between items-center '>
                                         <div className='flex flex-col'>
                                             <span className="text-xl font-bold md:text-2xl"> Concordia University</span>
                                             <i><span className="text-xl ">Graduate Teaching Assistant (GTA)    </span></i>
                                         </div>
-                                        <div className='flex flex-col text-right w-1/3 '>
+                                        <div className='flex flex-col md:text-right md:w-1/3 mt-3 '>
                                             <span className=" "> Montreal, QC</span>
                                             <span className=" font-semibold "> Jan. 2021- Present</span>
                                         </div>
@@ -68,12 +68,12 @@ const Experience = () => {
                                     <span className="text-xl font-semibold pt-3 ">Teaching Assistantship Details:   </span>
 
                                     <div className="mt-4 dark:text-gray-300">
-                                        <div className='flex justify-between items-center mb-3'>
+                                        <div className='flex justify-between  md:items-center mb-3'>
                                             <div className='flex flex-col'>
                                                 <span className=" "> <FaGenderless className='inline-block'></FaGenderless> Concordia Institute for Information Systems Engineering </span>
                                                 <span className=" "><span className='font-semibold '>Course Title</span>: Cryptographic Protocols and Network Security (INSE 6120)    </span>
                                             </div>
-                                            <div className='flex flex-col text-right w-1/3 '>
+                                            <div className='flex flex-col md:text-right md:w-1/3 w-full '>
 
                                                 <span className=" font-semibold ">  Jan. 2022 – Apr. 2022</span>
                                             </div>

@@ -33,17 +33,74 @@ const About = () => {
                                 <div data-aos="fade-up">
                                     <p className="mt-6 mb-8 sm:pl-24  text-[#0a192f]  px-6 sm:mb-12">
                                         <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> PhD Candidate in Information and Systems Engineering at Concordia University, Montreal, Canada; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> Graduated with M.Sc. and B.Sc. in Information and Communication Engineering; <br />
+                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 4.5 years of combined experience as a Graduate Research Assistant in Bangladesh and Canada; <br />
                                         <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 4.5 years of experience as Graduate Research Assistant in Bangladesh and Canada; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 3 years of teaching experience as a Lecturer of CSE in Bangladesh and Teaching Assistant (TA) in Canada; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> Researcher in Cyber Security, Network Security, IoT, IIoT, IoV, IoE, AI and Data Science; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> Professional research competence in QUIC, Machine Learning, Deep Learning and Cloud Computing; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 1.4 years of experience as Software Testing Engineer in Bangladesh; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 5 months of experience as IT Analyst in Canada; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> Excellent analytical capacity, methodical approach, determination with can-do mindset; <br />
-                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> Proven leadership quality, organizing efficiency, autonomy with perfection even under pressure. <br />
+                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless> 3.4 years of teaching experience in CSE and Cybersecurity in Bangladesh and Canada<br />
+                                        <FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>1.9 years of industry experience as a Software Testing Engineer and IT Analyst in Bangladesh and Canada<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Researcher in Cybersecurity, IoT, IIoT, IoV, IoE, Artificial Intelligence (AI), ML, and Data Science<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Professional expertise in QUIC Protocol, Machine Learning, Deep Learning and Cloud Computing<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Excellent analytical capacity, organizing efficiency, meticulous approach & problem-solving aptitude<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Commendable leadership quality, teamwork skills & autonomy with perfection even under pressure<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Over 3 years of experience in Big Data Analytics, Hadoop, Java, Python Database Administration, and
+Software development expertise<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>A deep understanding of network protocols, firewalls, intrusion detection and prevention systems, and
+network security technologies<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>A proficient understanding of symmetric and asymmetric encryption methods, digital signatures, and publickey infrastructure (PKI)<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Knowledge of security frameworks including NIST, ISO 27001, and SANS<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in conducting vulnerability assessments and penetration testing, as well as familiarity with tools
+such as Metasploit, Nessus, and Burp<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Knowledge of SIEM solutions and familiarity with log analysis and correlation tools<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Familiarity with web security tools like OWASP ZAP and knowledge of online security flaws like cross-site
+scripting (XSS) and SQL injection<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in cloud security issues, such as the privacy and confidentiality of data, and in setting up security
+measures for cloud systems<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in the security of operating systems like Windows, Linux, and Unix, as well as knowledge of
+security technologies like SELinux and AppArmor<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in malware analysis techniques, including reverse engineering and dynamic analysis, as well as
+experience using tools like IDA Pro and OllyDbg for malware analysis<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience with data protection legislation, including GDPR and HIPAA, and expertise in implementing data
+protection policies<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>A deep understanding of the basics of networking, including the transport layer, application layer, network
+protocols, and QUIC protocol<br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in the design, implementation, and security aspects of the QUIC protocol and in evaluating and testing the protocol <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>A deep understanding of cryptography methods and protocols, such as TLS and encryption algorithms, and experience using cryptography with the QUIC protocol <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>In-Depth Expertise in QUIC Protocol Security Assessments, Threat Modeling, and Risk Analysis <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>In-depth understanding of known security flaws in the QUIC protocol and expertise in doing vulnerability assessments and penetration testing <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in implementing the QUIC protocol in a variety of settings, including cloud, edge, and IoT, and <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>familiarity with QUIC implementation tools, such as Chromium and ngtcp2 <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in improving the QUIC protocol for speed, scalability, and security, as well as familiarity with QUIC <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>performance and optimization tools like Wireshark and tcpdump <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Specialist knowledge of modelling and testing the QUIC protocol in a variety of network settings, as well as <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>familiarity with network simulation tools such as ns-3 and Mininet <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Expertise in programming languages, including C, C++, Python, and JavaScript, as well as experience developing applications for the QUIC protocol <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience ensuring the QUIC protocol follows industry standards and rules, such as those from IETF and ISO <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Strong hands-on experience in Hadoop Framework and its ecosystem, including HDFS Architecture, MapReduce Programming, Hive, Pig, Sqoop, HBase, Zookeeper, Couchbase, Storm, Solr, Oozie, Spark, Scala, Flume, Strom, Kafka <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Excellent knowledge of Hadoop Architecture and ecosystems such as HDFS, Job Tracker, Task Tracker, Name Node, Data Node, and Map Reduce programming paradigm <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience in analyzing data using HIVEQL and Pig Latin and custom Map Reduce programs in Java and Scala <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience in strong and analyzing data using HiveQL, Pig Latin, HBase, and custom Map Reduce programs in Java and Hadoop Streaming, MRJob, and PySpark in Python <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience in importing and exporting data into HDFS and Hive using Sqoop <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Good knowledge of Amazon AWS concepts like EMR & EC2 web services which provide fast and efficient processing of Big Data <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience in Azure Cloud environments, Cosmos DB, ADL Gen1, and ADL Gen2 <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Good hands-on experience with Azure Databricks environment <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Hands-on experience in installing and configuring Cloudera's Apache Hadoop ecosystem components like Flume-ng, HBase, Zookeeper, Oozie, Hive, Spark, Storm, Sqoop, Kafka, Hue, Pig, Hue with CDH3&4 Clusters <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Architected, Designed, and maintained high-performing ELT/ETL Processes <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Skilled in managing and reviewing Hadoop log files <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experienced in loading data to Hive partitions and creating buckets in Hive <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Familiarity with distributed coordination system Zookeeper <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Involved in designing and deploying a multitude of an application utilizing the entire AWS stack (Including EC2, RDS, VPC, and IAM), focusing on high availability, fault tolerance, and auto-scaling. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experienced in implementing unified data platforms using Kafka producers/ consumers and implementing pre-processing using storm topologies <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Good knowledge of building Apache spark applications using Scala <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Experience in developing and designing POCs using Scala and deployed on the Yarn cluster, compared the performance of Spark with Hive and SQL/Teradata <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Done Administration, installing, upgrading, and managing distributions of DataStax Cassandra Cluster. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Strong database development skills using Database servers like Oracle and My SQL, and hands-on experience with SQL, PL/SQL <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Extensive experience in backend database programming in an oracle environment using PL/SQL with tools such as TOAD <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Have a particularly good understanding and working with relational databases like MySQL, Oracle, and NoSQL databases like HBase, Mongo DB, Couchbase, and Cassandra. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Good work experience on JAVA, JAVA 8, JDBC, Servlets, JSP. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Proficient in Java, J2EE, JDBC, Collections, Servlets, JSP, Struts, Spring, Hibernate, JAXB, JSON, XML, XSLT, XSD, JMS, WSDL, WADL, REST, SOAP Web services, CXF, Groovy, Grails, Jersey, Gradle, and Eclipse Link. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Good knowledge in performance troubleshooting and tuning Cassandra clusters and understanding of Cassandra Data Modeling based on applications. <br />
+<FaGenderless className='inline-block mr-1 mb-1 sm:mb-0 text-xl'></FaGenderless>Skilled in developing applications in Python and PySpark language for multiple platforms, familiarity with the process and Python software development <br />
 
-                                    </p>
+                                 </p>
                                 </div>
                             </div>
                             <div className='w-full'>
